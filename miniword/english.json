@@ -1,0 +1,25 @@
+{
+    "english":[
+  {
+    "AllWord" : [
+      {
+        "meanCn" : "v.喜爱的",
+        "word" : "faver",
+        "wordId" : 0,
+        "wordLevel" : 0
+      },
+      {
+        "meanCn" : "v.预见到",
+        "word" : "forecast",
+        "wordId" : 1,
+        "wordLevel" : 1
+      },
+    ],
+    "bookCount" : 9999,
+    "bookId" : 0,
+    "bookName" : "个人收藏",
+    "bookURL" : "FivuVM5RFAtTm99YNASbKF",
+    "category" : "\/0\/大学\/0"
+  }
+    ]
+}

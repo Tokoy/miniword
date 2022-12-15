@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in ContentView.FavWordList.body.getter:ContentView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "w">
+            </PersistentString>
+            <PersistentString
+               value = "cvm.favwords">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #3 in ContentView.Tabe.body.getter:ContentView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "i.word">
+            </PersistentString>
+            <PersistentString
+               value = "self._allfavword">
+            </PersistentString>
+            <PersistentString
+               value = "self._countNum">
+            </PersistentString>
+            <PersistentString
+               value = "vm.wordInfo">
+            </PersistentString>
+            <PersistentString
+               value = "cvm.favwords">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "word">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in ContentView.Tabe.body.getter:ContentView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "allfavword">
+            </PersistentString>
+            <PersistentString
+               value = "userSettings.changeTime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

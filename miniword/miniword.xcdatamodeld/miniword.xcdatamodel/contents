@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21C52" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FavwordEntity" representedClassName="FavwordEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="meanCn" optional="YES" attributeType="String"/>
+        <attribute name="word" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SettingEntity" representedClassName="SettingEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="changetime" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fontcolor" optional="YES" attributeType="String"/>
+        <attribute name="fontsize" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="FavwordEntity" positionX="-63" positionY="-18" width="128" height="59"/>
+        <element name="SettingEntity" positionX="-54" positionY="9" width="128" height="74"/>
+    </elements>
+</model>

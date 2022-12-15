@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1FC5CC284E4B8F0045C33B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5CB284E4B8F0045C33B /* ContentView.swift */; };
+		0A1FC5CE284E4B8F0045C33B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FC5CD284E4B8F0045C33B /* Assets.xcassets */; };
+		0A1FC5D1284E4B8F0045C33B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FC5D0284E4B8F0045C33B /* Preview Assets.xcassets */; };
+		0A1FC5D6284E4B8F0045C33B /* miniword.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5D4284E4B8F0045C33B /* miniword.xcdatamodeld */; };
+		0A1FC5E1284E4B900045C33B /* miniwordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5E0284E4B900045C33B /* miniwordTests.swift */; };
+		0A1FC5EB284E4B900045C33B /* miniwordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5EA284E4B900045C33B /* miniwordUITests.swift */; };
+		0A1FC5ED284E4B900045C33B /* miniwordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5EC284E4B900045C33B /* miniwordUITestsLaunchTests.swift */; };
+		0A1FC600284E4BDA0045C33B /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5F9284E4BDA0045C33B /* BookModel.swift */; };
+		0A1FC603284E4BDA0045C33B /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5FC284E4BDA0045C33B /* FileService.swift */; };
+		0A1FC604284E4BDA0045C33B /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FC5FD284E4BDA0045C33B /* success.json */; };
+		0A1FC605284E4BDA0045C33B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC5FE284E4BDA0045C33B /* SettingsView.swift */; };
+		0A1FC606284E4BDA0045C33B /* bookList.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FC5FF284E4BDA0045C33B /* bookList.json */; };
+		0A1FC608284E4C570045C33B /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FC607284E4C570045C33B /* WordModel.swift */; };
+		0A8895352850FF9A00DF1541 /* miniwordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8895342850FF9A00DF1541 /* miniwordApp.swift */; };
+		0AB320342852232F001F3AA2 /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB320332852232F001F3AA2 /* CoreDataModel.swift */; };
+		0AB3203828523E4F001F3AA2 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3203728523E4F001F3AA2 /* UserSetting.swift */; };
+		0AB3203A28525621001F3AA2 /* wechat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AB3203928525621001F3AA2 /* wechat.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A1FC5DD284E4B900045C33B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A1FC5BE284E4B8F0045C33B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A1FC5C5284E4B8F0045C33B;
+			remoteInfo = miniword;
+		};
+		0A1FC5E7284E4B900045C33B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A1FC5BE284E4B8F0045C33B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A1FC5C5284E4B8F0045C33B;
+			remoteInfo = miniword;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A1FC5C6284E4B8F0045C33B /* miniword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miniword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1FC5CB284E4B8F0045C33B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A1FC5CD284E4B8F0045C33B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A1FC5D0284E4B8F0045C33B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A1FC5D5284E4B8F0045C33B /* miniword.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = miniword.xcdatamodel; sourceTree = "<group>"; };
+		0A1FC5D7284E4B8F0045C33B /* miniword.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = miniword.entitlements; sourceTree = "<group>"; };
+		0A1FC5DC284E4B900045C33B /* miniwordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miniwordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1FC5E0284E4B900045C33B /* miniwordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniwordTests.swift; sourceTree = "<group>"; };
+		0A1FC5E6284E4B900045C33B /* miniwordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miniwordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1FC5EA284E4B900045C33B /* miniwordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniwordUITests.swift; sourceTree = "<group>"; };
+		0A1FC5EC284E4B900045C33B /* miniwordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniwordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A1FC5F9284E4BDA0045C33B /* BookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		0A1FC5FC284E4BDA0045C33B /* FileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
+		0A1FC5FD284E4BDA0045C33B /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		0A1FC5FE284E4BDA0045C33B /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0A1FC5FF284E4BDA0045C33B /* bookList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bookList.json; sourceTree = "<group>"; };
+		0A1FC607284E4C570045C33B /* WordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
+		0A8895342850FF9A00DF1541 /* miniwordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniwordApp.swift; sourceTree = "<group>"; };
+		0AB320332852232F001F3AA2 /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
+		0AB3203728523E4F001F3AA2 /* UserSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
+		0AB3203928525621001F3AA2 /* wechat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wechat.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A1FC5C3284E4B8F0045C33B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1FC5D9284E4B900045C33B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1FC5E3284E4B900045C33B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1FC5BD284E4B8F0045C33B = {
+			isa = PBXGroup;
+			children = (
+				0A8895342850FF9A00DF1541 /* miniwordApp.swift */,
+				0A1FC5C8284E4B8F0045C33B /* miniword */,
+				0A1FC5DF284E4B900045C33B /* miniwordTests */,
+				0A1FC5E9284E4B900045C33B /* miniwordUITests */,
+				0A1FC5C7284E4B8F0045C33B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A1FC5C7284E4B8F0045C33B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A1FC5C6284E4B8F0045C33B /* miniword.app */,
+				0A1FC5DC284E4B900045C33B /* miniwordTests.xctest */,
+				0A1FC5E6284E4B900045C33B /* miniwordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A1FC5C8284E4B8F0045C33B /* miniword */ = {
+			isa = PBXGroup;
+			children = (
+				0A1FC5CB284E4B8F0045C33B /* ContentView.swift */,
+				0A1FC5FE284E4BDA0045C33B /* SettingsView.swift */,
+				0A1FC5CD284E4B8F0045C33B /* Assets.xcassets */,
+				0AB3203928525621001F3AA2 /* wechat.jpg */,
+				0A1FC5F9284E4BDA0045C33B /* BookModel.swift */,
+				0A1FC607284E4C570045C33B /* WordModel.swift */,
+				0A1FC5FC284E4BDA0045C33B /* FileService.swift */,
+				0A1FC5FF284E4BDA0045C33B /* bookList.json */,
+				0A1FC5FD284E4BDA0045C33B /* success.json */,
+				0A1FC5D7284E4B8F0045C33B /* miniword.entitlements */,
+				0A1FC5D4284E4B8F0045C33B /* miniword.xcdatamodeld */,
+				0A1FC5CF284E4B8F0045C33B /* Preview Content */,
+				0AB320332852232F001F3AA2 /* CoreDataModel.swift */,
+				0AB3203728523E4F001F3AA2 /* UserSetting.swift */,
+			);
+			path = miniword;
+			sourceTree = "<group>";
+		};
+		0A1FC5CF284E4B8F0045C33B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A1FC5D0284E4B8F0045C33B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A1FC5DF284E4B900045C33B /* miniwordTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A1FC5E0284E4B900045C33B /* miniwordTests.swift */,
+			);
+			path = miniwordTests;
+			sourceTree = "<group>";
+		};
+		0A1FC5E9284E4B900045C33B /* miniwordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A1FC5EA284E4B900045C33B /* miniwordUITests.swift */,
+				0A1FC5EC284E4B900045C33B /* miniwordUITestsLaunchTests.swift */,
+			);
+			path = miniwordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A1FC5C5284E4B8F0045C33B /* miniword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1FC5F0284E4B900045C33B /* Build configuration list for PBXNativeTarget "miniword" */;
+			buildPhases = (
+				0A1FC5C2284E4B8F0045C33B /* Sources */,
+				0A1FC5C3284E4B8F0045C33B /* Frameworks */,
+				0A1FC5C4284E4B8F0045C33B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = miniword;
+			productName = miniword;
+			productReference = 0A1FC5C6284E4B8F0045C33B /* miniword.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A1FC5DB284E4B900045C33B /* miniwordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1FC5F3284E4B900045C33B /* Build configuration list for PBXNativeTarget "miniwordTests" */;
+			buildPhases = (
+				0A1FC5D8284E4B900045C33B /* Sources */,
+				0A1FC5D9284E4B900045C33B /* Frameworks */,
+				0A1FC5DA284E4B900045C33B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A1FC5DE284E4B900045C33B /* PBXTargetDependency */,
+			);
+			name = miniwordTests;
+			productName = miniwordTests;
+			productReference = 0A1FC5DC284E4B900045C33B /* miniwordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A1FC5E5284E4B900045C33B /* miniwordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1FC5F6284E4B900045C33B /* Build configuration list for PBXNativeTarget "miniwordUITests" */;
+			buildPhases = (
+				0A1FC5E2284E4B900045C33B /* Sources */,
+				0A1FC5E3284E4B900045C33B /* Frameworks */,
+				0A1FC5E4284E4B900045C33B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A1FC5E8284E4B900045C33B /* PBXTargetDependency */,
+			);
+			name = miniwordUITests;
+			productName = miniwordUITests;
+			productReference = 0A1FC5E6284E4B900045C33B /* miniwordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A1FC5BE284E4B8F0045C33B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0A1FC5C5284E4B8F0045C33B = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					0A1FC5DB284E4B900045C33B = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 0A1FC5C5284E4B8F0045C33B;
+					};
+					0A1FC5E5284E4B900045C33B = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 0A1FC5C5284E4B8F0045C33B;
+					};
+				};
+			};
+			buildConfigurationList = 0A1FC5C1284E4B8F0045C33B /* Build configuration list for PBXProject "miniword" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A1FC5BD284E4B8F0045C33B;
+			productRefGroup = 0A1FC5C7284E4B8F0045C33B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A1FC5C5284E4B8F0045C33B /* miniword */,
+				0A1FC5DB284E4B900045C33B /* miniwordTests */,
+				0A1FC5E5284E4B900045C33B /* miniwordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A1FC5C4284E4B8F0045C33B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1FC5D1284E4B8F0045C33B /* Preview Assets.xcassets in Resources */,
+				0A1FC604284E4BDA0045C33B /* success.json in Resources */,
+				0AB3203A28525621001F3AA2 /* wechat.jpg in Resources */,
+				0A1FC606284E4BDA0045C33B /* bookList.json in Resources */,
+				0A1FC5CE284E4B8F0045C33B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1FC5DA284E4B900045C33B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1FC5E4284E4B900045C33B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A1FC5C2284E4B8F0045C33B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB3203828523E4F001F3AA2 /* UserSetting.swift in Sources */,
+				0A1FC600284E4BDA0045C33B /* BookModel.swift in Sources */,
+				0A1FC608284E4C570045C33B /* WordModel.swift in Sources */,
+				0AB320342852232F001F3AA2 /* CoreDataModel.swift in Sources */,
+				0A1FC605284E4BDA0045C33B /* SettingsView.swift in Sources */,
+				0A8895352850FF9A00DF1541 /* miniwordApp.swift in Sources */,
+				0A1FC603284E4BDA0045C33B /* FileService.swift in Sources */,
+				0A1FC5CC284E4B8F0045C33B /* ContentView.swift in Sources */,
+				0A1FC5D6284E4B8F0045C33B /* miniword.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1FC5D8284E4B900045C33B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1FC5E1284E4B900045C33B /* miniwordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1FC5E2284E4B900045C33B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1FC5ED284E4B900045C33B /* miniwordUITestsLaunchTests.swift in Sources */,
+				0A1FC5EB284E4B900045C33B /* miniwordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A1FC5DE284E4B900045C33B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A1FC5C5284E4B8F0045C33B /* miniword */;
+			targetProxy = 0A1FC5DD284E4B900045C33B /* PBXContainerItemProxy */;
+		};
+		0A1FC5E8284E4B900045C33B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A1FC5C5284E4B8F0045C33B /* miniword */;
+			targetProxy = 0A1FC5E7284E4B900045C33B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A1FC5EE284E4B900045C33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A1FC5EF284E4B900045C33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0A1FC5F1284E4B900045C33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = miniword/miniword.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"miniword/Preview Content\"";
+				DEVELOPMENT_TEAM = PMR7E2R6F8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ike.miniword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0A1FC5F2284E4B900045C33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = miniword/miniword.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"miniword/Preview Content\"";
+				DEVELOPMENT_TEAM = PMR7E2R6F8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ike.miniword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0A1FC5F4284E4B900045C33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMR7E2R6F8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ike.miniwordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/miniword.app/Contents/MacOS/miniword";
+			};
+			name = Debug;
+		};
+		0A1FC5F5284E4B900045C33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMR7E2R6F8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ike.miniwordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/miniword.app/Contents/MacOS/miniword";
+			};
+			name = Release;
+		};
+		0A1FC5F7284E4B900045C33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMR7E2R6F8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ike.miniwordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = miniword;
+			};
+			name = Debug;
+		};
+		0A1FC5F8284E4B900045C33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMR7E2R6F8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ike.miniwordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = miniword;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A1FC5C1284E4B8F0045C33B /* Build configuration list for PBXProject "miniword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1FC5EE284E4B900045C33B /* Debug */,
+				0A1FC5EF284E4B900045C33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1FC5F0284E4B900045C33B /* Build configuration list for PBXNativeTarget "miniword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1FC5F1284E4B900045C33B /* Debug */,
+				0A1FC5F2284E4B900045C33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1FC5F3284E4B900045C33B /* Build configuration list for PBXNativeTarget "miniwordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1FC5F4284E4B900045C33B /* Debug */,
+				0A1FC5F5284E4B900045C33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1FC5F6284E4B900045C33B /* Build configuration list for PBXNativeTarget "miniwordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1FC5F7284E4B900045C33B /* Debug */,
+				0A1FC5F8284E4B900045C33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0A1FC5D4284E4B8F0045C33B /* miniword.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0A1FC5D5284E4B8F0045C33B /* miniword.xcdatamodel */,
+			);
+			currentVersion = 0A1FC5D5284E4B8F0045C33B /* miniword.xcdatamodel */;
+			path = miniword.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0A1FC5BE284E4B8F0045C33B /* Project object */;
+}
